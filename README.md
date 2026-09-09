@@ -1,15 +1,20 @@
-# Proyecto Kronos - Fichaje Digital 2025
+# ⏳ Proyecto Kronos - Fichaje Digital 2025
 
-[![Backend Architecture](https://img.shields.io/badge/Architecture-Microservices-blue.svg)]()
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Relational%20DB-336791.svg)]()
-[![Compliance](https://img.shields.io/badge/Compliance-Ley%20Fichaje%202025-DC382D.svg)]()
+[![Backend Architecture](https://img.shields.io/badge/Architecture-Microservices-blue.svg)](https://microservices.io/)
+[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933.svg)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Relational%20DB-336791.svg)](https://www.postgresql.org/)
+[![Compliance](https://img.shields.io/badge/Compliance-Ley%20Fichaje%202025-DC382D.svg)](https://www.boe.es/)
 
-## 📌 Resumen Ejecutivo
-**Kronos** es una plataforma de **software de fichaje digital obligatorio 2025**, diseñada para garantizar el cumplimiento normativo estricto del registro de jornada laboral. Su infraestructura distribuida está completamente contenerizada (Docker) y optimizada para alta disponibilidad, asegurando la trazabilidad inmutable de los marcajes, la gestión de turnos y la interoperabilidad con sistemas de nóminas.
+> **Kronos es una plataforma de software de fichaje digital obligatorio 2025, diseñada para garantizar el cumplimiento normativo estricto del registro de jornada laboral. Su infraestructura distribuida está completamente contenerizada (Docker) y optimizada para alta disponibilidad, asegurando la trazabilidad inmutable de los marcajes, la gestión de turnos y la interoperabilidad con sistemas de nóminas.**
 
 ---
 
-## 🏗️ Arquitectura de la Solución (Mermaid)
+## 🎯 Executive Overview
+La gestión del tiempo y la asistencia en grandes corporaciones requiere precisión milimétrica y seguridad inquebrantable. Kronos no solo permite a los empleados registrar sus jornadas fácilmente, sino que protege legalmente a la empresa mediante registros inmutables ante inspecciones de trabajo.
+
+---
+
+## 🏗️ System Architecture (Mermaid)
 
 ```mermaid
 flowchart TD
