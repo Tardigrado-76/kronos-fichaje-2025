@@ -24,14 +24,14 @@ flowchart TD
     classDef db fill:#3b82f6,stroke:#fff,stroke-width:2px,color:#fff;
     classDef cache fill:#ef4444,stroke:#fff,stroke-width:2px,color:#fff;
 
-    Client([Terminales / App Empleados]) --> API[API Gateway / Router]:::proxy
+    Client(["Terminales / App Empleados"]) --> API["API Gateway / Router"]:::proxy
     
-    API --> BackendNode[Core de Fichaje (Node.js/TS)]:::backend
+    API --> BackendNode["Core de Fichaje (Node.js/TS)"]:::backend
     
-    BackendNode --> DB[(PostgreSQL 16 - Registro Inmutable)]:::db
-    BackendNode -.-> Cache[(Redis - Gestión de Sesiones)]:::cache
+    BackendNode --> DB[("PostgreSQL 16 - Registro Inmutable")]:::db
+    BackendNode -.-> Cache[("Redis - Gestión de Sesiones")]:::cache
     
-    RRHH[Portal RRHH e Inspección de Trabajo] --> Adminer[Adminer / Dashboard UI]:::db
+    RRHH["Portal RRHH e Inspección de Trabajo"] --> Adminer["Adminer / Dashboard UI"]:::db
     Adminer --> DB
 ```
 
