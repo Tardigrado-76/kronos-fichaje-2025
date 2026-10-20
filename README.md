@@ -1,4 +1,4 @@
-# ⏳ Proyecto Kronos - Fichaje Digital 2025
+# Proyecto Kronos - Fichaje Digital 2025
 
 [![Backend Architecture](https://img.shields.io/badge/Architecture-Microservices-blue.svg)](https://microservices.io/)
 [![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933.svg)](https://nodejs.org/)
@@ -9,12 +9,12 @@
 
 ---
 
-## 🎯 Executive Overview
+## Executive Overview
 La gestión del tiempo y la asistencia en grandes corporaciones requiere precisión milimétrica y seguridad inquebrantable. Kronos no solo permite a los empleados registrar sus jornadas fácilmente, sino que protege legalmente a la empresa mediante registros inmutables ante inspecciones de trabajo.
 
 ---
 
-## 🏗️ System Architecture (Mermaid)
+## System Architecture (Mermaid)
 
 ```mermaid
 flowchart TD
@@ -37,7 +37,7 @@ flowchart TD
 
 ---
 
-## 📚 Estructura de Componentes
+## Estructura de Componentes
 
 ```text
 Kronos/
@@ -52,6 +52,6 @@ Kronos/
 
 ---
 
-## 🔐 Cumplimiento y Rendimiento
+## Cumplimiento y Rendimiento
 1. **Cumplimiento Normativo 2025:** Diseñado específicamente para cumplir con las regulaciones laborales de control horario (registro inmutable, retención de datos y exportación legal).
 2. **Contenerización Estricta y Seguridad:** Uso de imágenes Alpine ligeras y aisladas. Redis y PostgreSQL se comunican mediante redes internas de Docker para garantizar la privacidad y seguridad de los datos de los empleados.
